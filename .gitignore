@@ -1,0 +1,33 @@
+# 构建产物
+cpp-build/
+cpp/build/
+sentencepiece-build/
+sentencepiece-install/
+
+# 第三方依赖（体积大，需自行下载/构建）
+cpp_deps/
+sentencepiece-0.2.2/
+
+# 模型权重：从 HuggingFace 下载，勿提交
+models/
+
+# 生成音频输出
+generated_audio/
+
+# HuggingFace / 缓存
+.cache/
+**/.cache/
+
+# 运行时解压目录
+%TEMP%/moss_tts_selfcontained/
+
+# 系统与 IDE
+.vscode/
+.idea/
+*.suo
+*.user
+Thumbs.db
+Desktop.ini
+
+# 日志
+*.log
