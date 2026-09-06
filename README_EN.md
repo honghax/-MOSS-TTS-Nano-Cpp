@@ -178,7 +178,7 @@ Sampling mode is fixed (`fixed`; sampling happens inside the model, with PCG64 r
 ## Performance Notes
 
 - Default thread count = CPU logical cores (capped at 8); adjust with `--threads`
-- On an i7-10700, processing `创世纪` (≈1100 chars / 13 chunks) with 8 threads takes ≈256s to produce ≈270s of audio — about **2.1× faster** than the Python version (8 threads)
+- On an i7-10700, processing `创世纪` (≈1100 chars / 13 chunks) with 8 threads takes ≈167s to produce ≈270s of audio — about **2.1× faster** than the Python version (8 threads)
 - Varies greatly with hardware and text length
 
 ---
