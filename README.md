@@ -2,6 +2,8 @@
 
 基于 **ONNX Runtime C++ API** 直接实现的零样本语音克隆推理工具，是 [MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano)（OpenMOSS 团队，Apache-2.0）的纯 C++ 本地实现。
 
+> [English README](./README_EN.md)
+
 - **无需 Python / PyTorch**，也不需要浏览器运行时
 - 使用官方导出的 ONNX 权重（TTS + Audio Tokenizer），本地 CPU 推理
 - 支持中文 / 日语 / 英文等多语言
